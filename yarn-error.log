@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add sass sass-loader -D
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Users\linpan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;D:\Program Files\Java\jdk1.8.0_241\bin\;D:\Program Files\apache-maven-3.6.3\\bin\;C:\Python27;C:\Program Files (x86)\DSOC\ExtractContent;C:\Program Files (x86)\DSOC\ExtractContent64\OCR;D:\phpstudy_pro\Extensions\php\php7.3.4nts;C:\Users\linpan\AppData\Local\Microsoft\WindowsApps;D:\Users\linpan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\linpan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\linpan\AppData\Local\Yarn\bin;C:\Python27;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Task\v3\home-page\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "home-page",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc --noEmit && vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "pinia": "^2.0.0",
+      "vue": "^3.2.37",
+      "vue-router": "^4.1.6"
+    },
+    "devDependencies": {
+      "@types/node": "^18.11.18",
+      "@vitejs/plugin-vue": "^3.1.0",
+      "typescript": "^4.6.4",
+      "vite": "^3.1.0",
+      "vue-tsc": "^0.40.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

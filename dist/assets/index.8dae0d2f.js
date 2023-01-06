@@ -1,0 +1,1 @@
+import{d as r,j as e,l as n,v as t,F as o}from"./index.ec6b2645.js";const d=r({setup(){return()=>e(o,null,[e(n("el-tag"),null,{default:()=>[t("\u767B\u5F55\u9875")]}),e("div",{style:"color: #8df;"},[t("\u767B\u5F55\u9875")])])}});export{d as default};
